@@ -25,7 +25,6 @@ public class ConnectionPool {
     /*构造方法，做一些初始化工作*/
     private ConnectionPool() {
         pool = new Vector<Connection>(poolSize);
-
         for (int i = 0; i < poolSize; i++) {
             try {
                 Class.forName(driverClassName);

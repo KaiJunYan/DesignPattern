@@ -2,7 +2,7 @@ package com.test.pattern.construct.Proxy;
 
 
 /**
- * 代理模式
+ * (静态)代理模式测试
  * */
 public class ProxyTest {
 	public static void main(String[] args) {
